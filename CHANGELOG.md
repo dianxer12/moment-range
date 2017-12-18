@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+
+* Added Typescript defitions
+* Added Typescript config and tests
+* Added `check`, `typescript-test` npm script
+
+### Changed
+
+* Changed `prepublish`, `preversion`, `version` scripts to support typescript definitions
+* Changed CircleCI config to also run typescript tests
 
 ## [3.1.0]
 ### Added
